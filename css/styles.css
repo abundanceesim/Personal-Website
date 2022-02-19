@@ -1,0 +1,165 @@
+/*general formatting for the entire Body*/
+body {
+  margin: 0;
+  text-align:center;
+  background-color: #e8ffff;
+  font-family: arial, serif;
+}
+
+/*formatting for title div*/
+.title{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #0A043C;
+  padding: 50px 0 50px;
+}
+/*formatting for all level 1 headings*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #39A2DB;
+    font-size: 2rem;
+
+}
+/*formatting for all level 2 headings*/
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #39A2DB;
+
+}
+/*formatting for level 3 elements*/
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #22577A;
+}
+/*formatting for the horizontal rule*/
+hr {
+  border: dotted #b1cdcd 6px;
+  border-bottom: none;
+  width: 100%;
+  margin: 50px auto;
+  /*background: #22577A;*/
+}
+/*formatting for hyper-links*/
+a{
+  color: #11999E;
+  margin: 10px 10px;
+  text-decoration: none
+}
+
+/*changes hyperlinks to white when hovered over*/
+a:hover{
+  color: white;
+}
+/*formatting for elements of class "abundance"*/
+.abundance {
+  border-radius: 100%;
+}
+
+.description {
+  margin: 0 auto 0 auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+/*formatting for elements of class "resume"*/
+.resume {
+  color: #22577A;
+}
+/*formatting for elements of class "course"*/
+.course {
+  margin: 0 auto 0 auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+/*formatting for paragraph elements*/
+p {
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    color: #22577A;
+    color: #22577A;
+}
+/*formatting for unordered lists*/
+ul {
+  font-family: 'Montserrat', sans-serif;
+  color: #22577A;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+}
+/*formatting for elements of class "hobbies"*/
+.hobbies {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+/*formatting for elements of class "activities"*/
+.activities {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+/*general formatting for all Divs*/
+div {
+    margin: 0;
+    background-color: #e8ffff;
+}
+/*formatting for elements of class "mission-row" */
+.mission-row {
+  font-family: 'Montserrat', sans-serif;
+  color: #22577A;
+}
+/*formatting for elements of either "search-bar", "filter", or "sort" classes*/
+.search-bar, .filter, .sort{
+  text-align: right;
+  position: relative;
+  margin-right: 20px;
+}
+
+/*formatting for elements of class "nav-bar"*/
+.nav-bar {
+  /*list-style-type: none;*/
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #0A043C;
+  padding: 50px 0 50px;
+}
+
+/*general formatting for table elements*/
+table {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+/*formatting for elements of class "skill"*/
+.skill {
+  width: 480px;
+  height: 480px;
+  border-radius: 100%;
+  margin: 20px auto 20px auto;
+}
+/*formatting for elements of class "skill-row"*/
+.skill-row {
+  margin: 0 auto 0 auto;
+  width: 50%;
+  text-align: center;
+
+}
+
+.navigation {
+  margin-top: 10px;
+}
+select {
+  width: 9%;
+  font-family: 'Montserrat', sans-serif;
+  color: #22577A;
+  background-color: white;
+  
+}
+
+label {
+  width: 8%;
+  font-family: 'Montserrat', sans-serif;
+  color: #0A043C;
+}
+/*EOF*/

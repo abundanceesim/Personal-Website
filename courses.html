@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Courses</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--use external font styles. Import font styles here-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!--External fonts imported from fonts.google.com-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Della+Respira&family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Div containing title of page and top navigation bar-->
+    <div class="title">
+      <a class="top-nav" href="index.html">Homepage</a>
+      <a class="top-nav" href="resume.html">Resume</a>
+      <a class="top-nav" href="courses.html">Courses</a>
+      <a class="top-nav" href="gallery.html">Gallery</a>
+      <h1>Courses</h1>
+    </div>
+    <!--Div for navigation elements-->
+    <div class="navigation">
+      <!--Div for search bar-->
+      <!--<div class="search-bar" id="search-bar">
+        <input type="text" placeholder="Search..." onkeyup="displaySearch()">
+      </div> -->
+      <div class="filter">
+        <label for="filter">Filter by Level:</label>
+        <select name="" id="filter" onchange="filtered()">
+          <option value="Level 1" id="level-1">Level 1</option>
+          <option value="Level 2" id="level-2">Level 2</option>
+        </select>
+    </div>
+
+    <div class="sort">
+      <label for="sort">Sort by Level:</label>
+      <select name="" onchange="sorted()"; id="sort">
+        <option value="level1" id="level-1">Level 1(Ascending)</option>
+        <option value="level2" id="level-2">Level 2(Descending)</option>
+      </select>
+    </div>
+
+    <div id="courses"></div>
+    <div id="sorted"></div>
+    <div id="levelOne"></div>
+    <div id="levelTwo"></div>
+    
+    <!--Div containing navigation bar-->
+    <script src="script.js"></script>
+    <div class="nav-bar">
+      <a href="index.html">Homepage</a>
+      <a href="resume.html">Resume</a>
+      <a href="courses.html">Courses</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+    
+  </body>
+</html>
